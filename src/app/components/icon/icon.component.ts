@@ -64,7 +64,7 @@ export class IconComponent {
 
   draw() {
     this.action = 'and';
-    this.status = ' You draw! ';
+    this.status = ` It's a tie! `;
     this.clearField();
     this.selected = false;
   }
