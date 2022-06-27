@@ -1,0 +1,109 @@
+/* You can add global styles to this file, and also import other style files */
+@import "./assets/styles/resets.scss";
+@import "./assets/styles/grids.scss";
+
+* {
+  font-family: Arial, Helvetica, sans-serif;
+  letter-spacing: 2.8px;
+  word-spacing: 2px;
+}
+
+body {
+  background-color: #346b6d;
+  color: #f3aa20;
+  background-image: url(./assets/images/Brick_wall_background_5321.jpg);
+  background-size: cover;
+}
+
+@keyframes flameing {
+  15% {
+    -webkit-box-shadow: #fff 10px 10px 14px, #ff0 0 -8px 20px,
+      #ff8000 0 -10px 50px, red -50px -18px 110px,
+      -50px 15px 5px 15px rgba(0, 0, 0, 0);
+    box-shadow: #fff 1px -3px 8px, #ff0 0 -4px 10px, #ff8000 0 -15px 20px,
+      red 2px -18px 40px, 5px 5px 15px 5px rgba(0, 0, 10, 0);
+  }
+  50% {
+    -webkit-box-shadow: #fff 0 -15px 24px, #ff0 10px -2px 10px,
+      #ff8000 -10px 10px 20px, red 50px -18px 40px,
+      50px 5px 15px 5px rgba(0, 0, 0, 0);
+    box-shadow: #fff 0 -1px 4px, #ff0 0 -2px 10px, #ff8000 5px -10px 20px,
+      red 7px -18px 40px, 5px 5px 15px 5px rgba(0, 10, 0, 0);
+  }
+  75% {
+    -webkit-box-shadow: #fff 10px 8px 15px, #ff0 0 -2px 30px,
+      #ff8000 0 -10px 80px, red -50px -18px 20px,
+      -50px 15px 5px 15px rgba(0, 0, 0, 0);
+    box-shadow: #fff 1px -3px 8px, #ff0 5px -4px 10px, #ff8000 0 -15px 20px,
+      red 2px -18px 40px, 5px 5px 15px 5px rgba(0, 10, 0, 0);
+  }
+  100% {
+    -webkit-box-shadow: #fff 0 -15px 14px, #ff0 10px -2px 10px,
+      #ff8000 -10px 10px 20px, red 50px -18px 40px,
+      45px 45px 5px 45px rgba(0, 0, 0, 0);
+    box-shadow: #fff 0 -1px 4px, #ff0 0 -2px 10px, #ff8000 2px -10px 20px,
+      red 7px -18px 40px, 5px 5px 15px 5px rgba(0, 0, 10, 0);
+  }
+}
+
+@keyframes bouncing {
+  0% {
+    bottom: 0%;
+    left: 0%;
+    transform: rotate(360deg);
+    animation: in 4s linear 0s infinite normal;
+  }
+  10% {
+    bottom: 30%;
+    left: 10%;
+    animation: in 4s linear 0s infinite normal;
+  }
+  20% {
+    bottom: 20%;
+    left: 20%;
+    animation: in 4s linear 0s infinite normal;
+  }
+  30% {
+    bottom: 40%;
+    left: 30%;
+    transform: rotate(120deg);
+    animation: in 4s linear 0s infinite normal;
+  }
+  40% {
+    bottom: 35%;
+    left: 40%;
+    animation: in 4s linear 0s infinite normal;
+  }
+  50% {
+    bottom: 50%;
+    left: 50%;
+    animation: in 4s linear 0s infinite normal;
+  }
+  60% {
+    bottom: 60%;
+    left: 60%;
+    transform: rotate(360deg);
+    animation: in 4s linear 0s infinite normal;
+  }
+  70% {
+    bottom: 55%;
+    left: 70%;
+    animation: in 4s linear 0s infinite normal;
+  }
+  80% {
+    bottom: 40%;
+    left: 80%;
+    animation: in 4s linear 0s infinite normal;
+    transform: rotate(120deg);
+  }
+  90% {
+    bottom: 50%;
+    left: 90%;
+    animation: in 4s linear 0s infinite normal;
+  }
+  100% {
+    bottom: 30%;
+    left: 100%;
+    animation: in 4s linear 0s infinite normal;
+  }
+}

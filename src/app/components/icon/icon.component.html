@@ -1,0 +1,28 @@
+<div class="box">
+  <div class="row middle-xs center-xs">
+    <div class="col-xs-12 col-md-7">
+      <app-score-board
+        [userSelected]="userSelected"
+        [compSelected]="compSelected"
+        [userScore]="userScore"
+        [compScore]="compScore"
+      ></app-score-board>
+
+      <app-result
+        [userSelected]="userSelected"
+        [compSelected]="compSelected"
+        [action]="action"
+        [status]="status"
+      ></app-result>
+
+      <app-choices
+        [wait]="wait"
+        (userPickRequest)="userPick($event)"
+      ></app-choices>
+    </div>
+
+    <div class="col-xs-12 col-md-2">
+      <app-footer (clearBordRequest)="clearBord()"></app-footer>
+    </div>
+  </div>
+</div>

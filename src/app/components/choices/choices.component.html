@@ -1,0 +1,37 @@
+<div class="choices" [ngClass]="!wait ? '' : 'choises__dis'">
+  <div class="choice" id="rock">
+    <img
+      class="image"
+      src="../../../assets/images/rock.png"
+      (click)="userPick('rock')"
+    />
+  </div>
+  <div class="choice">
+    <img
+      class="image"
+      src="../../../assets/images/paper.png"
+      (click)="userPick('paper')"
+    />
+  </div>
+  <div class="choice">
+    <img
+      class="image"
+      src="../../../assets/images/scissor.png"
+      (click)="userPick('scissors')"
+    />
+  </div>
+  <div class="choice">
+    <img
+      class="image"
+      src="../../../assets/images/lizard.png"
+      (click)="userPick('lizard')"
+    />
+  </div>
+  <div class="choice">
+    <img
+      class="image"
+      src="../../../assets/images/spock.png"
+      (click)="userPick('spock')"
+    />
+  </div>
+</div>

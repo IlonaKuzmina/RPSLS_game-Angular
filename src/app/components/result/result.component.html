@@ -1,0 +1,6 @@
+<p class="action__message" *ngIf="!status">You Can Make Your Move</p>
+<p class="results__message" *ngIf="status">
+  {{ userSelected }} {{ action }} {{ compSelected }}.
+  <span class="status__message">{{ status }}</span>
+  <span class="action__message" *ngIf="status">Wait...</span>
+</p>

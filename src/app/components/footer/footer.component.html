@@ -1,0 +1,9 @@
+<footer class="footer">
+  <div>
+    <button class="btn" (click)="clearBord()">Reset</button>
+  </div>
+  <div>
+    <button class="btn" (click)="openModal()">Rules</button>
+    <app-rules-modal *ngIf="modal" (click)="openModal()"></app-rules-modal>
+  </div>
+</footer>

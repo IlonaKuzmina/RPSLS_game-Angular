@@ -1,0 +1,21 @@
+.action__message,
+.results__message,
+.status__message {
+  text-align: center;
+  font-weight: bold;
+  font-size: 30px;
+  margin: 40px 0;
+  color: #f3aa20;
+  font-weight: bold;
+  text-decoration: none solid rgb(68, 68, 68);
+  font-style: normal;
+  font-variant: small-caps;
+  text-transform: capitalize;
+}
+
+.status__message {
+  color: #58094f;
+  text-shadow: #fff 0px 0px 5px, #fff 0px 0px 10px, #fff 0px 0px 15px,
+    #ff2d95 0px 0px 20px, #ff2d95 0px 0px 30px, #ff2d95 0px 0px 40px,
+    #ff2d95 0px 0px 50px, #ff2d95 0px 0px 75px;
+}

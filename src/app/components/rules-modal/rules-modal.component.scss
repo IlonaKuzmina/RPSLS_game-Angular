@@ -1,0 +1,61 @@
+.modal {
+  height: 100%;
+  width: 100%;
+  background-color: rgba(42, 68, 94, 0.8);
+  position: fixed;
+  top: 0;
+  left: 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  opacity: 0;
+  pointer-events: none;
+  transition: 0.4s;
+}
+
+.eat__me {
+  position: absolute;
+  width: 150px;
+  animation-duration: 20s;
+  animation-name: bouncing;
+  animation-iteration-count: infinite;
+}
+
+.modal.active {
+  opacity: 1;
+  pointer-events: all;
+}
+
+.modal__content {
+  padding: 20px;
+  border-radius: 10px;
+  background-color: #346860;
+  min-width: 25%;
+  color: #071c34;
+  position: relative;
+}
+
+.close__btn {
+  position: absolute;
+  top: 5px;
+  right: 10px;
+  border: none;
+  background-color: transparent;
+  color: #071c34;
+  font-weight: bold;
+
+  &:hover {
+    color: #144361;
+  }
+}
+
+.modal__image {
+  border-radius: 10px;
+  -webkit-box-shadow: 0px 0px 0px 8px #000000, 0px 0px 0px 16px #4b4c4b,
+    0px 0px 0px 24px #828482, 0px 0px 0px 31px #b2b5b2, 0px 0px 0px 39px #daddda,
+    -44px -36px 15px -11px rgba(52, 104, 96, 0);
+  box-shadow: 0px 0px 0px 8px rgba(31, 35, 46, 0.814),
+    0px 0px 0px 16px rgba(45, 50, 63, 0.847),
+    0px 0px 0px 24px rgba(56, 63, 78, 0.851), 0px 0px 0px 31px #272c3a62,
+    0px 0px 0px 39px #daddda29, -44px -36px 15px -11px rgba(52, 104, 96, 0);
+}
