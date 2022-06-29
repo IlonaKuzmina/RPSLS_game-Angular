@@ -17,8 +17,8 @@ export class IconComponent {
   winResults = winResults;
   loseResults = loseResults;
   together?: string;
-  selected: boolean = false;
-  wait: boolean = false;
+  selected = false;
+  wait = false;
 
   userPick(userWeapon: string) {
     this.userSelected = userWeapon;
